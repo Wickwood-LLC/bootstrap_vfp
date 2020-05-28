@@ -19,5 +19,3 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - bootstrap_vfp/framework
-
-logo: logo.jpg

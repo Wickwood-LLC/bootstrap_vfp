@@ -6511,7 +6511,6 @@ ul {
   padding: 12px 24px;
   position: relative;
   top: 20px;
-  width: 100%;
   border-radius: 20px; }
   @media (min-width: 980px) {
     .l-page {
@@ -6591,7 +6590,6 @@ ul {
     padding: 0.5em; }
     #navbar .menu--main li > a.is-active {
       background-image: linear-gradient(#f7f9f9 0%, #cdd5d7 100%);
-      color: #E7F2F9;
       border: 1px solid #303030;
       border-radius: 10px 0; }
     #navbar .menu--main li > a:hover {

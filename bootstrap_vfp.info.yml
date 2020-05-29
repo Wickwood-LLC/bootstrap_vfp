@@ -28,3 +28,5 @@ libraries:
 
 ckeditor_stylesheets:
   - css/ckeditor-styles.css
+
+logo: logo.jpg

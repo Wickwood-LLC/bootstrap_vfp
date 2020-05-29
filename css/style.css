@@ -6513,7 +6513,8 @@ ul {
   border-radius: 20px; }
 
 .header-container {
-  float: none; }
+  float: none;
+  display: inline-block; }
 
 #navbar {
   max-width: 100%; }

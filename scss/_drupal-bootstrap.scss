@@ -64,6 +64,8 @@ body.navbar-is-fixed-top {
 }
 .main-container {
   flex: 1;
+  max-width: 100%;
+  padding: 0;
 }
 
 // jQuery UI style overrides.
@@ -125,6 +127,8 @@ ul {
 
 .header-container {
   float: none;
+  display: inline-block;
+  padding: 0;
 }
 
 #navbar {

@@ -21,10 +21,16 @@
       <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
     </a>
   {% endif %}
-  {% if site_name %}
-    <a class="name navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+  {% if site_name and site_slogan %}
+    <div class="name-and-slogan">
   {% endif %}
-  {% if site_slogan %}
-    <p class="navbar-text">{{ site_slogan }}</p>
+    {% if site_name %}
+      <h1 class="name navbar-brand"><a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a></h1>
+    {% endif %}
+    {% if site_slogan %}
+      <h1 class="navbar-text">{{ site_slogan }}</h1>
+    {% endif %}
+  {% if site_name and site_slogan %}
+    </div>
   {% endif %}
 {% endblock %}

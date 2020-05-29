@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="drupalbootstrapstylessass"><a href="https://github.com/unicorn-fail/drupal-bootstrap-styles">Drupal Bootstrap Styles</a> (SASS)</h1>
+
+<p>These files are intended to be used within a <a href="https://www.drupal.org/project/bootstrap">Drupal Bootstrap</a> based sub-theme.</p>
+
+<h2 id="defaultvariables">Default Variables</h2>
+
+<p>The <code>_default-variables.scss</code> file is generally where you will spend the
+majority of your time providing any default variables that should be
+used by the <a href="https://getbootstrap.com/docs/3.4/">Bootstrap Framework</a> instead of its own.</p>
+
+<blockquote>
+<p><strong>WARNING:</strong> It is highly recommended that you only put the default variables
+you intend to override in this file. Copying and pasting the entire
+<code>_variables.scss</code> file provided by the <a href="https://getbootstrap.com/docs/3.4/">Bootstrap Framework</a> is redundant and
+only makes it more difficult to determine which variable has been overridden
+when the need to update or upgrade to newer versions in the future arises.</p>
+</blockquote>
+
+<h2 id="drupalbootstrap">Drupal Bootstrap</h2>
+
+<p>The <code>_drupal-bootstrap.scss</code> file contains various styles to properly integrate
+<a href="https://www.drupal.org/project/bootstrap">Drupal Bootstrap</a> with the <a href="https://getbootstrap.com/docs/3.4/">Bootstrap Framework</a>.</p>
+
+<h2 id="compiling">Compiling</h2>
+
+<p>The <code>style.scss</code> file is the main compiling entry point. It is the glue that
+combines: <code>_default-variables.scss</code>, <a href="https://github.com/twbs/bootstrap-sass">Bootstrap Framework Source Files</a> and the
+<code>_drupal-bootstrap.scss</code> files together. Generally, you will not need to modify
+this file unless you need to add or remove files to be imported.</p>
+
+<p>Your <a href="http://sass-lang.com">Sass</a> compiler should use this file as it&#8217;s &#8220;source&#8221; and its compiled
+output &#8220;destination&#8221; should be <code>../css/style.css</code> (overwrites the file provided
+by the base-theme starterkit).</p>
+
+</body>
+</html>
+

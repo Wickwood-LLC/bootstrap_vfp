@@ -1,7 +1,7 @@
 name: 'Bootstrap VFP'
-description: 'A Drupal Bootstrap 3 based sub-theme that tries to rebuild VFP theme in Drupal 8.'
+description: 'A Drupal Bootstrap 3 based sub-theme for VFP'
+version: '8.x-2.x'
 package: 'Bootstrap'
-version: '8.x-1.x'
 core: 8.x
 type: theme
 base theme: bootstrap_wwm_base
@@ -22,3 +22,9 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - bootstrap_vfp/framework
+
+libraries:
+  - bootstrap_vfp/fonts
+
+ckeditor_stylesheets:
+  - css/ckeditor-styles.css

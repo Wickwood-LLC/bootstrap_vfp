@@ -6518,6 +6518,55 @@ ul {
   float: none;
   display: inline-block;
   padding: 0; }
+  .header-container .name-and-slogan {
+    display: inline-block;
+    width: 100%;
+    text-align: center; }
+  .header-container .navbar-brand {
+    display: inline-block;
+    float: none;
+    font-weight: bold;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%; }
+    .header-container .navbar-brand {
+      font-size: 20px; }
+      @media screen and (min-width: 320px) {
+        .header-container .navbar-brand {
+          font-size: calc(20px + 10 * ((100vw - 320px) / 880)); } }
+      @media screen and (min-width: 1200px) {
+        .header-container .navbar-brand {
+          font-size: 30px; } }
+    .header-container .navbar-brand a {
+      font-size: 20px; }
+      @media screen and (min-width: 320px) {
+        .header-container .navbar-brand a {
+          font-size: calc(20px + 10 * ((100vw - 320px) / 880)); } }
+      @media screen and (min-width: 1200px) {
+        .header-container .navbar-brand a {
+          font-size: 30px; } }
+    .header-container .navbar-brand a:hover {
+      text-decoration: none; }
+  .header-container .navbar-text {
+    display: inline-block;
+    float: none;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    width: 100%; }
+    .header-container .navbar-text {
+      font-size: 20px; }
+      @media screen and (min-width: 320px) {
+        .header-container .navbar-text {
+          font-size: calc(20px + 10 * ((100vw - 320px) / 880)); } }
+      @media screen and (min-width: 1200px) {
+        .header-container .navbar-text {
+          font-size: 30px; } }
+    .header-container .navbar-text a {
+      color: #2379ff;
+      text-decoration: none; }
 
 #navbar {
   max-width: 100%; }
@@ -6527,81 +6576,6 @@ ul {
     flex-flow: row wrap;
     margin: auto;
     max-width: 100%; }
-    #navbar .container .name-and-slogan {
-      display: inline-block;
-      width: 100%;
-      text-align: center; }
-      @media (min-width: 768px) {
-        #navbar .container .name-and-slogan {
-          width: 50%;
-          text-align: left; } }
-      @media (min-width: 1200px) {
-        #navbar .container .name-and-slogan {
-          width: auto; } }
-    #navbar .container .navbar-brand {
-      display: inline-block;
-      float: none;
-      font-weight: bold;
-      height: auto;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      width: 100%; }
-      #navbar .container .navbar-brand {
-        font-size: 20px; }
-        @media screen and (min-width: 320px) {
-          #navbar .container .navbar-brand {
-            font-size: calc(20px + 10 * ((100vw - 320px) / 880)); } }
-        @media screen and (min-width: 1200px) {
-          #navbar .container .navbar-brand {
-            font-size: 30px; } }
-      #navbar .container .navbar-brand a {
-        color: #2379ff; }
-        #navbar .container .navbar-brand a {
-          font-size: 20px; }
-          @media screen and (min-width: 320px) {
-            #navbar .container .navbar-brand a {
-              font-size: calc(20px + 10 * ((100vw - 320px) / 880)); } }
-          @media screen and (min-width: 1200px) {
-            #navbar .container .navbar-brand a {
-              font-size: 30px; } }
-        #navbar .container .navbar-brand a:hover {
-          text-decoration: none; }
-      @media (min-width: 530px) {
-        #navbar .container .navbar-brand {
-          width: auto; } }
-    #navbar .container .navbar-text {
-      color: #2379ff;
-      display: inline-block;
-      float: none;
-      font-weight: bold;
-      margin: 0;
-      text-align: center;
-      width: 100%; }
-      #navbar .container .navbar-text {
-        font-size: 20px; }
-        @media screen and (min-width: 320px) {
-          #navbar .container .navbar-text {
-            font-size: calc(20px + 10 * ((100vw - 320px) / 880)); } }
-        @media screen and (min-width: 1200px) {
-          #navbar .container .navbar-text {
-            font-size: 30px; } }
-      #navbar .container .navbar-text a {
-        color: #2379ff;
-        text-decoration: none; }
-      #navbar .container .navbar-text span {
-        font-family: GeometrySoftPro-BoldA; }
-        #navbar .container .navbar-text span {
-          font-size: 25px; }
-          @media screen and (min-width: 320px) {
-            #navbar .container .navbar-text span {
-              font-size: calc(25px + 10 * ((100vw - 320px) / 880)); } }
-          @media screen and (min-width: 1200px) {
-            #navbar .container .navbar-text span {
-              font-size: 35px; } }
-      @media (min-width: 530px) {
-        #navbar .container .navbar-text {
-          width: auto; } }
   #navbar .navbar-header {
     display: flex;
     align-items: center;

@@ -129,6 +129,46 @@ ul {
   float: none;
   display: inline-block;
   padding: 0;
+
+  .name-and-slogan {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    float: none;
+    font-weight: bold;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
+
+    a {
+      @include fluid-type(320px, 1200px, 20px, 30px); // similar to h3 sizes
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .navbar-text {
+    display: inline-block;
+    float: none;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
+
+    a {
+      color: #2379ff;
+      text-decoration: none;
+    }
+  }
 }
 
 #navbar {
@@ -140,69 +180,6 @@ ul {
     flex-flow: row wrap;
     margin: auto;
     max-width: 100%;
-
-    .name-and-slogan {
-      display: inline-block;
-      width: 100%;
-      text-align: center;
-      
-      @include breakpoint(768px){
-        width: 50%;
-        text-align: left;
-      }
-      @include breakpoint(1200px){
-        width: auto;
-      }
-    }
-
-    .navbar-brand {
-      display: inline-block;
-      float: none;
-      font-weight: bold;
-      height: auto;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      width: 100%;
-      @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
-
-      a {
-        color: #2379ff;
-        @include fluid-type(320px, 1200px, 20px, 30px); // similar to h3 sizes
-
-        &:hover {
-          text-decoration: none;
-        }
-      }
-
-      @include breakpoint(530px){
-        width: auto;
-      }
-    }
-    .navbar-text {
-      color: #2379ff;
-      display: inline-block;
-      float: none;
-      font-weight: bold;
-      margin: 0;
-      text-align: center;
-      width: 100%;
-      @include fluid-type(320px, 1200px, 20px, 30px); // same size as h3
-
-      a {
-        color: #2379ff;
-        text-decoration: none;
-      }
-      
-      span {
-        font-family: GeometrySoftPro-BoldA;
-        @include fluid-type(320px, 1200px, 25px, 35px);
-      }
-
-      @include breakpoint(530px){
-        width: auto;
-      }
-    }
   }
 
   .navbar-header {

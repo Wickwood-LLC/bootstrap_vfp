@@ -6366,7 +6366,9 @@ body.navbar-is-fixed-top {
   min-height: calc(100vh - 204px); }
 
 .main-container {
-  flex: 1; }
+  flex: 1;
+  max-width: 100%;
+  padding: 0; }
 
 /**
  * jQuery UI autocomplete widget style overrides.
@@ -6514,7 +6516,8 @@ ul {
 
 .header-container {
   float: none;
-  display: inline-block; }
+  display: inline-block;
+  padding: 0; }
 
 #navbar {
   max-width: 100%; }

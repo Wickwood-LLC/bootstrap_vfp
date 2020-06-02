@@ -9007,17 +9007,16 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   text-align: center;
 }
 
-.view-articles .author,
-.view-press-releases .author {
+.view-articles .links,
+.view-press-releases .links {
+  text-align: right;
+}
+
+.author {
   margin: 0 0 1em 0;
   text-align: center;
   font-size: 0.6875em;
   line-height: 2.18182em;
-}
-
-.view-articles .links,
-.view-press-releases .links {
-  text-align: right;
 }
 
 .boxed {

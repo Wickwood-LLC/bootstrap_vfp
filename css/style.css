@@ -9190,6 +9190,23 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   width: 100%;
 }
 
+.view-articles article > h2 {
+  margin: 1em 0 0;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.view-articles .author {
+  margin: 0 0 1em 0;
+  text-align: center;
+  font-size: 0.6875em;
+  line-height: 2.18182em;
+}
+
+.view-articles .links {
+  text-align: right;
+}
+
 .boxed {
   border: 1px solid #B8C3C6;
   box-shadow: 0px 0px 3px 2px #b8c3c6;
@@ -9210,6 +9227,11 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   content: '\f330';
   display: inline-block;
   font-family: 'Font Awesome 5 Pro';
+  margin-right: 0.5em;
   vertical-align: baseline;
+}
+
+.block-views.boxed td {
+  padding: 4px;
 }
 /*# sourceMappingURL=style.css.map */

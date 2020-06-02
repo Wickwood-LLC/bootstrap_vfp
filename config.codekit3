@@ -1515,6 +1515,17 @@
 		"oAP": "/bootstrap/test/dummy_rails/app/assets/images/.keep",
 		"oF": 0
 		},
+	"/bootstrap/test/dummy_rails/app/assets/javascripts/application-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/bootstrap/test/dummy_rails/app/assets/javascripts/application-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/bootstrap/test/dummy_rails/app/assets/javascripts/application.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1569,6 +1580,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/bootstrap/test/dummy_rails/app/views/layouts/application.html.erb",
+		"oF": 0
+		},
+	"/bootstrap/test/dummy_rails/app/views/pages/root.html.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/bootstrap/test/dummy_rails/app/views/pages/root.html.html",
 		"oF": 0
 		},
 	"/bootstrap/test/dummy_rails/app/views/pages/root.html.slim": {
@@ -1851,44 +1870,44 @@
 		"oAP": "/bootstrap/test/test_helper_rails.rb",
 		"oF": 0
 		},
-	"/bootstrap_ssce.info.yml": {
+	"/bootstrap_vfp.info.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/bootstrap_ssce.info.yml",
+		"oAP": "/bootstrap_vfp.info.yml",
 		"oF": 0
 		},
-	"/bootstrap_ssce.libraries.yml": {
+	"/bootstrap_vfp.libraries.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/bootstrap_ssce.libraries.yml",
+		"oAP": "/bootstrap_vfp.libraries.yml",
 		"oF": 0
 		},
-	"/bootstrap_ssce.theme": {
+	"/bootstrap_vfp.theme": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/bootstrap_ssce.theme",
+		"oAP": "/bootstrap_vfp.theme",
 		"oF": 0
 		},
-	"/config/install/bootstrap_ssce.settings.yml": {
+	"/config/install/bootstrap_vfp.settings.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/config/install/bootstrap_ssce.settings.yml",
+		"oAP": "/config/install/bootstrap_vfp.settings.yml",
 		"oF": 0
 		},
-	"/config/schema/bootstrap_ssce.schema.yml": {
+	"/config/schema/bootstrap_vfp.schema.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/config/schema/bootstrap_ssce.schema.yml",
+		"oAP": "/config/schema/bootstrap_vfp.schema.yml",
 		"oF": 0
 		},
 	"/css/ckeditor-styles.css": {
@@ -2053,6 +2072,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/logo.jpg": {
+		"ft": 16384,
+		"iS": 25047,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/logo.svg": {
 		"ft": 2097152,
@@ -2604,6 +2634,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/scss/README.html",
+		"oF": 0
+		},
 	"/scss/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2679,6 +2717,22 @@
 		"oAP": "/templates/maintenance-page.html.twig",
 		"oF": 0
 		},
+	"/templates/page.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/page.html.twig",
+		"oF": 0
+		},
+	"/templates/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/README.html",
+		"oF": 0
+		},
 	"/templates/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -2705,7 +2759,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 596948080.32239604,
-	"displayValue": "bootstrap_ssce",
+	"displayValue": "bootstrap_vfp",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0

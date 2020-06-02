@@ -458,3 +458,26 @@ form#webform-submission-contact-node-160-add-form {
     width: 100%;
   }
 }
+
+.boxed {
+  border: 1px solid #B8C3C6;
+  box-shadow: 0px 0px 3px 2px #b8c3c6;
+  font-size: 16px;
+  line-height: 1.2em;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 10px;
+
+  h3.block-title {
+    background: none;
+    color: inherit;
+    font-size: 1em;
+
+    &:before {
+      content: '\f330';
+      display: inline-block;
+      font-family: 'Font Awesome 5 Pro';
+      vertical-align: baseline;
+    }
+  }
+}

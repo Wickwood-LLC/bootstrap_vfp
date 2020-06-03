@@ -267,6 +267,10 @@ ul {
     }
   }
 
+  .region-navigation-collapsible {
+    width: 100%;
+  }
+
   @include breakpoint(0px 768px) {
     border: 0px;
     margin: 0px;
@@ -282,6 +286,10 @@ ul {
       border: 1px solid #e7e7e7;
       margin: 0;
       box-shadow: -1px 1px 20px -5px black;
+    }
+
+    .region-navigation-collapsible {
+      width: unset;
     }
 
     .navbar-toggle{

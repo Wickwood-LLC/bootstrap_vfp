@@ -8927,6 +8927,10 @@ ul:last-child {
   }
 }
 
+#navbar .region-navigation-collapsible {
+  width: 100%;
+}
+
 @media (min-width: 0px) and (max-width: 768px) {
   #navbar {
     border: 0px;
@@ -8943,6 +8947,9 @@ ul:last-child {
     border: 1px solid #e7e7e7;
     margin: 0;
     box-shadow: -1px 1px 20px -5px black;
+  }
+  #navbar .region-navigation-collapsible {
+    width: unset;
   }
   #navbar .navbar-toggle {
     box-shadow: -1px 1px 20px -5px black;

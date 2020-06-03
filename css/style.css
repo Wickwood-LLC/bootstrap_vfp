@@ -8946,8 +8946,6 @@ ul:last-child {
   }
   #navbar .navbar-toggle {
     box-shadow: -1px 1px 20px -5px black;
-  }
-  #navbar .navbar-toggle .collapsed {
     background: white;
   }
   #navbar .navbar-nav {

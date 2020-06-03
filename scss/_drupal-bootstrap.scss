@@ -267,14 +267,30 @@ ul {
     }
   }
 
-  @include breakpoint(0px 979px) {
+  @include breakpoint(0px 768px) {
     border: 0px;
     margin: 0px;
     padding: 0;
     width: auto;
     right: 0px;
-    position: absolute;
+    position: fixed;
     top: 49px;
+    z-index: 100;
+
+    #navbar-collapse {
+      padding: 0;
+      border: 1px solid #e7e7e7;
+      margin: 0;
+      box-shadow: -1px 1px 20px -5px black;
+    }
+
+    .navbar-toggle{
+      box-shadow: -1px 1px 20px -5px black;
+
+      .collapsed {
+        background: white;
+      }
+    }
 
     .navbar-nav {
       text-align: right;
@@ -282,7 +298,7 @@ ul {
       padding: 0.5em;
 
       >li {
-        border-radius: 4px;
+        display: block;
 
         a {
           border-radius: 4px;
@@ -326,6 +342,11 @@ ul {
           }
         }
       }
+    }
+
+    #block-bootstrap-vfp-main-menu {
+      background: #FFF;
+      
     }
   }
 }

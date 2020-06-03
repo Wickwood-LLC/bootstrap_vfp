@@ -33,15 +33,24 @@ body.maintenance-page {
       > .row {
         width: 100%;
       }
-      .navbar-brand {
-        margin-right: 0.3em;
-        color: #2379ff;
-      }
     }
   }
 
   .navbar-header {
     justify-content: center;
+  }
+
+  .maintenance-title {
+    text-transform: capitalize;
+  }
+
+  .maintenance-message {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2em;
   }
 
   .main-container {

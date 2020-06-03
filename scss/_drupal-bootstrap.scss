@@ -16,10 +16,12 @@
 html {
   min-height: 100vh;
 }
+
 body {
-  background-image: linear-gradient(#d4d4d4,#f3f3f3 85%,#6e6e6e 85%);
+  background-image: linear-gradient(#d4d4d4, #f3f3f3 85%, #6e6e6e 85%);
   background-attachment: fixed;
 }
+
 body.maintenance-page {
   height: calc(100vh - 125px);
   display: flex;
@@ -28,9 +30,9 @@ body.maintenance-page {
 
   #navbar {
     padding: 0.25em 0;
-    
+
     .container {
-      > .row {
+      >.row {
         width: 100%;
       }
     }
@@ -66,11 +68,13 @@ body.navbar-is-fixed-top {
   margin-top: 125px;
   min-height: calc(100vh - 125px);
 }
+
 .dialog-off-canvas-main-canvas {
   display: flex;
   flex-flow: column nowrap;
   min-height: calc(100vh - 204px);
 }
+
 .main-container {
   flex: 1;
   max-width: 100%;
@@ -80,36 +84,49 @@ body.navbar-is-fixed-top {
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 
-html, body {
-    @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+html,
+body {
+  @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 24px, 40px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h2, .h2 {
+
+h2,
+.h2 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 22px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h3, .h3 {
+
+h3,
+.h3 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 20px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h4, .h4 {
+
+h4,
+.h4 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 18px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h5, .h5 {
+
+h5,
+.h5 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 17px, 22px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-h6, .h6 {
+
+h6,
+.h6 {
   font-weight: bold;
   @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
+
 p {
-    @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 ol,
@@ -124,7 +141,7 @@ ul {
 .l-page {
   background-color: white;
   border: 1px solid black;
-  box-shadow: 3px 3px 1px 1px rgba(0,0,0,0.15);
+  box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.15);
   margin: 0 1em 35px 1em;
   max-width: 960px;
   padding: 12px 24px;
@@ -179,6 +196,7 @@ ul {
       }
     }
   }
+
   .navbar-text {
     display: inline-block;
     float: none;
@@ -202,24 +220,25 @@ ul {
 
   .menu--main {
     text-align: center;
-    
+
     li {
       float: none;
       display: inline-block;
-      > a {
+
+      >a {
         border: 1px solid transparent;
         font-size: 0.75em;
         padding: 0.3em;
-        
+
         &.is-active {
-          background-image: linear-gradient(#f7f9f9 0%,#cdd5d7 100%);
+          background-image: linear-gradient(#f7f9f9 0%, #cdd5d7 100%);
           color: #000;
           border: 1px solid #303030;
           border-radius: 10px 0;
         }
-  
+
         &:hover {
-          background-image: linear-gradient(#7f7f7f 0%,#5f5f5f 100%);
+          background-image: linear-gradient(#7f7f7f 0%, #5f5f5f 100%);
           color: #fff;
           border: 1px solid #303030;
           border-radius: 10px 0;
@@ -227,7 +246,7 @@ ul {
       }
     }
   }
-  
+
   .container {
     display: flex;
     align-items: center;
@@ -243,11 +262,12 @@ ul {
     max-width: 100%;
     margin: 0;
 
-    @include breakpoint(768px){
+    @include breakpoint(768px) {
       flex: 1 1 50%;
     }
   }
 }
+
 #navbar-collapse {
   flex: 100%;
 }
@@ -274,13 +294,13 @@ ul {
   text-align: center;
   width: 100%;
 
-  @include breakpoint(768px){
+  @include breakpoint(768px) {
     float: right;
     width: 215px;
     text-align: right;
   }
 
-  @include breakpoint(1200px){
+  @include breakpoint(1200px) {
     width: auto;
   }
 
@@ -289,12 +309,13 @@ ul {
     font-size: 1.2em;
     font-weight: bold;
     vertical-align: bottom;
-    
-    &:hover{
+
+    &:hover {
       color: #23527c;
       text-decoration: none;
     }
   }
+
   .btn {
     margin-left: 1em;
   }
@@ -316,7 +337,7 @@ nav.tabs {
   display: inline-block;
   float: right;
 
-  > li {
+  >li {
     float: left;
     position: relative;
     background: #eee;
@@ -325,12 +346,13 @@ nav.tabs {
     &.active {
       background-color: $brand-primary;
 
-      > a {
+      >a {
         color: white;
         background: transparent;
         border: 1px solid transparent;
       }
     }
+
     &:hover {
       background-color: #f8f8f8;
 
@@ -339,14 +361,81 @@ nav.tabs {
         border-color: transparent;
       }
     }
-    > a {
+
+    >a {
       color: $text-color;
     }
+
     &:first-child {
       border-radius: 5px 0 0 5px;
     }
+
     &:last-child {
       border-radius: 0 5px 5px 0;
+    }
+  }
+}
+
+#block-bootstrap-vfp-main-menu {
+  @include breakpoint(0px 979px) {
+    border: 0px;
+    margin: 0px;
+    padding: 0;
+    width: auto;
+    right: 0px;
+    position: absolute;
+    top: 49px;
+
+    .navbar-nav {
+      text-align: right;
+      margin: 0;
+      padding: 0.5em;
+
+      >li {
+        border-radius: 4px;
+
+        a {
+          border-radius: 4px;
+
+          >&:hover,
+          >&.active-trail {
+            background-color: #e7e7e7;
+            color: #555;
+          }
+        }
+      }
+
+      li.dropdown.open {
+        background-color: #e7e7e7;
+
+        >a {
+          color: #555;
+        }
+      }
+
+      .dropdown-menu {
+        background-color: #e7e7e7;
+        text-align: right;
+        max-width: 100%;
+
+        >li {
+          display: flex;
+          justify-content: flex-end;
+
+          >a {
+            display: inline-block;
+            margin: 2px 5px;
+            border-radius: 4px;
+            @include fluid-type(320px, 1250px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+
+            &:hover,
+            &.active-trail {
+              color: #555;
+              background-color: #bfbfbf;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -406,7 +495,7 @@ p:last-child,
   &.wt-primary {
     background-color: #2479ff;
     color: white;
-    
+
     &:hover {
       background-color: #1b5cc3;
       color: #fff;
@@ -464,6 +553,7 @@ form#webform-submission-contact-node-160-add-form {
     background: #5988b4;
     color: #fff;
   }
+
   .ui-dialog-title {
     text-align: center;
     width: 100%;
@@ -487,6 +577,8 @@ form#webform-submission-contact-node-160-add-form {
 
     &:before {
       content: '\f330';
+      font-family: 'Font Awesome 5 Pro';
+      margin-right: 0.5em;
     }
   }
 }

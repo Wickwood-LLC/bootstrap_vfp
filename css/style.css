@@ -8951,6 +8951,9 @@ ul:last-child {
   #navbar .region-navigation-collapsible {
     width: unset;
   }
+  #navbar .navbar-header {
+    display: block;
+  }
   #navbar .navbar-toggle {
     box-shadow: -1px 1px 20px -5px black;
     background: white;

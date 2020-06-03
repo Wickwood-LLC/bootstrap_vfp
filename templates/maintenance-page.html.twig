@@ -22,30 +22,22 @@
 %}
 <div class="l-page">
   <header {{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
-    <div class="{{ container }}">
-      <div class="row">
-        <section class="col-sm-12">
-          <div class="navbar-header">
-            {% if site_logo %}
-              <a class="logo navbar-btn pull-left" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
-                <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
-              </a>
-            {% endif %}
-            {% if site_name and site_slogan %}
-              <div class="name-and-slogan">
-            {% endif %}
-              {% if site_name %}
-                <h1 class="name navbar-brand"><a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a></h1>
-              {% endif %}
-              {% if site_slogan %}
-                <h1 class="navbar-text">{{ site_slogan }}</h1>
-              {% endif %}
-            {% if site_name and site_slogan %}
-              </div>
-            {% endif %}
-          </div>
-        </section>
-      </div>
+    <div class="{{ container }} region-header">
+      <a class="logo navbar-btn pull-left" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+        <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+      </a>
+      {% if site_name and site_slogan %}
+        <div class="name-and-slogan">
+      {% endif %}
+        {% if site_name %}
+          <h1 class="name navbar-brand"><a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a></h1>
+        {% endif %}
+        {% if site_slogan %}
+          <h1 class="navbar-text">{{ site_slogan }}</h1>
+        {% endif %}
+      {% if site_name and site_slogan %}
+        </div>
+      {% endif %}
     </div>
   </header>
   {% endblock %}

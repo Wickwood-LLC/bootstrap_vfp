@@ -8485,6 +8485,7 @@ body.maintenance-page {
 
 body.maintenance-page #navbar {
   padding: 0.25em 0;
+  position: static;
 }
 
 body.maintenance-page #navbar .container > .row {

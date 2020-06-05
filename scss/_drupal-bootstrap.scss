@@ -31,6 +31,7 @@ body.maintenance-page {
   .l-page {
     display: flex;
     flex-direction: column;
+    min-height: 98vh;
   }
 
   #navbar {
@@ -56,25 +57,11 @@ body.maintenance-page {
     background-color: white;
     padding: 2em;
   }
-
-  .main-container {
-    min-height: calc(100vh - 165px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: -125px;
-  }
 }
 
 body.navbar-is-fixed-top {
   margin-top: 125px;
   min-height: calc(100vh - 125px);
-}
-
-.dialog-off-canvas-main-canvas {
-  display: flex;
-  flex-flow: column nowrap;
-  min-height: calc(100vh - 204px);
 }
 
 .main-container {

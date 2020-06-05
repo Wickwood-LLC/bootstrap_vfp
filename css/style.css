@@ -8486,6 +8486,7 @@ body.maintenance-page {
 body.maintenance-page .l-page {
   display: flex;
   flex-direction: column;
+  min-height: 98vh;
 }
 
 body.maintenance-page #navbar {
@@ -8510,23 +8511,9 @@ body.maintenance-page .maintenance-message {
   padding: 2em;
 }
 
-body.maintenance-page .main-container {
-  min-height: calc(100vh - 165px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: -125px;
-}
-
 body.navbar-is-fixed-top {
   margin-top: 125px;
   min-height: calc(100vh - 125px);
-}
-
-.dialog-off-canvas-main-canvas {
-  display: flex;
-  flex-flow: column nowrap;
-  min-height: calc(100vh - 204px);
 }
 
 .main-container {

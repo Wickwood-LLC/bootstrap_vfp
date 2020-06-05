@@ -8483,6 +8483,11 @@ body.maintenance-page {
   align-content: center;
 }
 
+body.maintenance-page .l-page {
+  display: flex;
+  flex-direction: column;
+}
+
 body.maintenance-page #navbar {
   padding: 0.25em 0;
   position: static;

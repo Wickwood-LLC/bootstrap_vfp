@@ -28,6 +28,11 @@ body.maintenance-page {
   justify-content: center;
   align-content: center;
 
+  .l-page {
+    display: flex;
+    flex-direction: column;
+  }
+
   #navbar {
     padding: 0.25em 0;
     position: static;

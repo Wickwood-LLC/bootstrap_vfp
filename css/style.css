@@ -7742,23 +7742,27 @@ html.js .ajax-new-content:empty {
  * $file
  * Visual styles for fields.
  */
-.field--label {
+.field--label,
+.field__label {
   font-weight: bold;
 }
 
 .field--label-inline .field--label,
+.field--label-inline .field__label,
 .field--label-inline .field--items {
   float: left;
   /*LTR*/
 }
 
 .field--label-inline .field--label,
+.field--label-inline .field__label,
 .field--label-inline > .field--item,
 .field--label-inline .field--items {
   padding-right: 0.5em;
 }
 
 [dir="rtl"] .field--label-inline .field--label,
+[dir="rtl"] .field--label-inline .field__label,
 [dir="rtl"] .field--label-inline .field--items {
   padding-left: 0.5em;
   padding-right: 0;
@@ -7766,7 +7770,8 @@ html.js .ajax-new-content:empty {
   /*RTL*/
 }
 
-.field--label-inline .field--label::after {
+.field--label-inline .field--label::after,
+.field--label-inline .field__label::after {
   content: ':';
 }
 

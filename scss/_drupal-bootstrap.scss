@@ -613,7 +613,7 @@ form#webform-submission-contact-node-160-add-form {
     box-sizing: border-box;
 
     .row {
-      margin: 0.5em 0;
+      margin: 1em 0;
 
       &:first-child {
         margin-top: 0;
@@ -621,6 +621,10 @@ form#webform-submission-contact-node-160-add-form {
       &:last-child {
         margin-bottom: 0;
       }
+    }
+
+    .field--name-field-pr-about {
+      margin: 3em 0;
     }
   }
 }

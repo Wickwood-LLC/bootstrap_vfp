@@ -9156,7 +9156,7 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 }
 
 .press-release.full .sutro-double .row {
-  margin: 0.5em 0;
+  margin: 1em 0;
 }
 
 .press-release.full .sutro-double .row:first-child {
@@ -9165,5 +9165,9 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 
 .press-release.full .sutro-double .row:last-child {
   margin-bottom: 0;
+}
+
+.press-release.full .sutro-double .field--name-field-pr-about {
+  margin: 3em 0;
 }
 /*# sourceMappingURL=style.css.map */

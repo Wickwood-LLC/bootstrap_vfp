@@ -8766,8 +8766,23 @@ ul {
 
 #navbar .menu--main li > a {
   border: 1px solid transparent;
-  font-size: 0.75em;
   padding: 0.3em;
+}
+
+#navbar .menu--main li > a {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 769px) {
+  #navbar .menu--main li > a {
+    font-size: calc(16px + 4 * ((100vw - 769px) / 431));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #navbar .menu--main li > a {
+    font-size: 20px;
+  }
 }
 
 #navbar .menu--main li > a.is-active {

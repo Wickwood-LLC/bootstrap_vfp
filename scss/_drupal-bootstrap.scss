@@ -463,6 +463,22 @@ ul {
   width: 100%;
 }
 
+.menu--footer {
+  li {
+    display: inline-block;
+
+    a {
+      display: inline-block;
+      padding: 5px 10px;
+    }
+  }
+
+  li + li:before {
+    content: '•';
+    display: inline-block;
+  }
+}
+
 // Paragraphs.
 p:last-child,
 .form-group:last-child,

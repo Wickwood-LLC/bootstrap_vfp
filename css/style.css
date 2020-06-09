@@ -9211,21 +9211,25 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   margin: 3em 0;
 }
 
-.view-articles.view-display-id-page_1 article > h2 {
+.view-articles.view-display-id-page_1 article > h2,
+.view-press-releases.view-display-id-page_1 article > h2 {
   text-align: center;
 }
 
-.view-articles.view-display-id-page_1 .author {
+.view-articles.view-display-id-page_1 .author,
+.view-press-releases.view-display-id-page_1 .author {
   text-align: center;
   margin-bottom: 0.5em;
 }
 
-.view-articles.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks {
+.view-articles.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks,
+.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks {
   text-align: right;
   font-weight: bold;
 }
 
-.view-articles.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks a {
+.view-articles.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks a,
+.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks a {
   color: red;
 }
 /*# sourceMappingURL=style.css.map */

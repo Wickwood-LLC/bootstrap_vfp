@@ -650,3 +650,22 @@ form#webform-submission-contact-node-160-add-form {
     }
   }
 }
+
+.view-articles.view-display-id-page_1 {
+  article > h2 {
+    text-align: center;
+  }
+  .author {
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+  .block-extra-field-blocknodearticle-postlinks {
+    text-align: right;
+    font-weight: bold;
+
+    a {
+      color: red;
+    }
+  }
+}

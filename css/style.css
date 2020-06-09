@@ -9161,6 +9161,10 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
   margin-right: 0.5em;
 }
 
+.boxed .block-content {
+  font-size: 0.8em;
+}
+
 .press-release.full .sutro-double {
   max-width: 960px;
   background: #FFF;

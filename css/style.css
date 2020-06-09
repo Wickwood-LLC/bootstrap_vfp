@@ -9028,6 +9028,8 @@ ul {
   padding-bottom: 36px;
   border-top: 1px solid #E5E5E5;
   width: 100%;
+  background-color: #d4d4d4;
+  border-radius: 0 0 10px 10px;
 }
 
 .menu--footer li {

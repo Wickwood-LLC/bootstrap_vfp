@@ -9223,13 +9223,17 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 }
 
 .view-articles.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks,
-.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks {
+.view-articles.view-display-id-page_1 .block-extra-field-blocknodepress-releaselinks,
+.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks,
+.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodepress-releaselinks {
   text-align: right;
   font-weight: bold;
 }
 
 .view-articles.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks a,
-.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks a {
+.view-articles.view-display-id-page_1 .block-extra-field-blocknodepress-releaselinks a,
+.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodearticle-postlinks a,
+.view-press-releases.view-display-id-page_1 .block-extra-field-blocknodepress-releaselinks a {
   color: red;
 }
 /*# sourceMappingURL=style.css.map */

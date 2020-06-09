@@ -9039,6 +9039,11 @@ ul {
   padding: 5px 10px;
 }
 
+.menu--footer li a:hover {
+  background-color: unset;
+  text-decoration: underline;
+}
+
 .menu--footer li + li:before {
   content: '•';
   display: inline-block;

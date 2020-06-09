@@ -470,6 +470,11 @@ ul {
     a {
       display: inline-block;
       padding: 5px 10px;
+
+      &:hover {
+        background-color: unset;
+        text-decoration: underline;
+      }
     }
   }
 

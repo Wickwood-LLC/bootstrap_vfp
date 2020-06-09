@@ -8636,7 +8636,7 @@ ul {
   border-radius: 20px;
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1240px) {
   .l-page {
     margin: 0 auto 35px;
   }

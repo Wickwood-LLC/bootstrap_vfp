@@ -9354,4 +9354,9 @@ form#webform-submission-contact-node-160-add-form #edit-actions {
 .view-press-releases.view-display-id-page_1 .block-extra-field-blocknodepress-releaselinks a {
   color: red;
 }
+
+.author {
+  text-align: center;
+  margin-bottom: 1em;
+}
 /*# sourceMappingURL=style.css.map */
